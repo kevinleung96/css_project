@@ -1,0 +1,56 @@
+.navbar{
+    position: absolute;
+    right: 0;
+    z-index: 10;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+/* Adjust image to cover full width */
+.header-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+input{
+    margin-bottom: 3px;
+}
+
+
+/* determine how the submit botton displayed */
+.submit_button{
+    display: flex;
+    float: left;
+    margin-right: 2px;
+    border-radius: 5px;
+    border-color: blueviolet;
+    width: 4em;
+}
+
+
+/* adding colored border to the photos */
+.col-sm-6 img,.col-sm-3.p-3 img{
+    border-radius: 5px;
+    border: 2px solid rgb(246, 255, 0);
+}
+
+.footer {
+    background-color: #0d0d0e; /* Light gray background */
+    padding: 20px 0; /* Add padding for better spacing */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer .nav-link {
+    color: white
+}
+
+.footer p {
+    color: #666;
+}
